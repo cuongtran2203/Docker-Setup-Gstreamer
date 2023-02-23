@@ -5,3 +5,5 @@ https://sourceforge.net/projects/vcxsrv/
 Setup biến DISPLAY=IP:0.0 với IP là IP của máy local
 chạy docker :
 docker run -it image_name -e DISPLAY=$DISPLAY 
+Cách khởi chạy GUI trong docker tham khảo :
+https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
