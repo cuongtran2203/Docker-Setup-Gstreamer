@@ -7,3 +7,6 @@ chạy docker :
 docker run -it image_name -e DISPLAY=$DISPLAY 
 Cách khởi chạy GUI trong docker tham khảo :
 https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
+mkdir -pv ~/.cache/xdgr
+export XDG_RUNTIME_DIR=$PATH:~/.cache/xdgr
+XDG_RUNTIME_DIR=/run/user/10010
